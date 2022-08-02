@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="org.example.AtAspect" />
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="org.example.*"/>
+        </weaver>
+    </aspects>
+</aspectj>
